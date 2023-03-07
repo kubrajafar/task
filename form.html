@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        width: 200px;
+        display: inline-block;
+      }
+      .label {
+        width: auto;
+      }
+      input {
+        margin-bottom: 5px;
+      }
+      input[type="submit"] {
+        display: inline-block;
+        margin-left: 205px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+    <form>
+      <h2>Hesap bilgileriniz</h2>
+      <br />
+      <label for="">Kullancı adı:</label>
+      <input type="text" placeholder="kullancı adınızı giriniz" /><br />
+      <label for="">Eposta: </label>
+      <input type="text" placeholder="Eposta giriniz" /><br />
+      <label for="">Parola</label>
+      <input type="text" placeholder="parola giriniz" /><br />
+
+      <h2>Kişisel bilgileriniz</h2>
+      <br />
+      <label for="">Adınız:</label>
+      <input type="text" placeholder="ad giriniz" />
+      <br />
+      <label for="">Soyadınız: </label>
+      <input type="text" placeholder="soyad giriniz" />
+      <br />
+      <label for="">Şehir:</label>
+      <select id="cars" name="cars">
+        <option>seçiniz</option>
+        <option>istanbul</option>
+        <option>ankara</option>
+        <option>antep</option>
+      </select>
+
+      <br />
+      <label for="">Cinsiyyet:</label>
+      <input type="radio" name="cinsiyyet" />
+      <label class="label">Erkek</label>  
+      <input type="radio" name="cinsiyyet" />  
+      <label class="label">Kadın</label>
+      <br />
+      <label for="">Hobileriniz:</label>
+      <input type="checkbox" />
+      <label class="label"> Sinema</label>
+      <input type="checkbox" />
+      <label class="label"> Gezmek</label>
+      <input type="checkbox" />
+      <label class="label"> Spor</label>
+      <input type="checkbox" />
+      <label class="label"> Kitap</label>
+      <br /><br />
+
+      <input type="submit" value="kaydet" />
+    </form>
+  </body>
+</html>
