@@ -1,0 +1,14 @@
+label{
+    display: inline-block;
+    width: 90px;
+}
+input{
+    margin-bottom: 5px;
+}
+.little_input{
+    width: 100px;
+}
+input[type='submit']{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
